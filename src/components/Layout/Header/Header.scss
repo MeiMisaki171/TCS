@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(
+  90deg,
+  hsl(0deg 0% 100%) 0%,
+  hsl(261deg 46% 91%) 16%,
+  hsl(260deg 45% 82%) 24%,
+  hsl(258deg 44% 73%) 31%,
+  hsl(257deg 44% 64%) 38%,
+  hsl(254deg 43% 56%) 44%,
+  hsl(251deg 47% 47%) 49%,
+  hsl(243deg 65% 39%) 55%,
+  hsl(247deg 60% 43%) 60%,
+  hsl(250deg 56% 47%) 66%,
+  hsl(252deg 56% 51%) 71%,
+  hsl(254deg 62% 55%) 77%,
+  hsl(256deg 70% 60%) 83%,
+  hsl(258deg 81% 64%) 89%,
+  hsl(259deg 94% 68%) 100%
+);
+}
+.header-logo{
+    width: 240px;
+    .logo{
+        width: 100%;
+    }
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+.title{
+    font-size: 40px;
+    color: var(--white);
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.nav-area {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+  }

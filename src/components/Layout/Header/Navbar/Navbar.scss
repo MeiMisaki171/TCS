@@ -1,0 +1,16 @@
+.nav {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: center;
+    width: inherit;
+    background-color: #c7b7eb;
+}
+
